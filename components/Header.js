@@ -1,3 +1,9 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+import { Title } from '@buildo/bento-design-system';
+
+export default function Header() {
+  return (
+      <header style={{ textAlign: 'center', margin: '2rem 0' }}>
+        <Title size="large">Lauren's</Title>
+      </header>
+  );
 }

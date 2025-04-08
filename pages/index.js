@@ -1,23 +1,19 @@
 import Head from 'next/head'
-import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Header from '@components/Header';
+import TopNav from '@components/TopNav';
 
 export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <div className="container">
+            <Head>
+                <title>Next.js Starter!</title>
+                <link rel="icon" href="/faviconpersonalwebsite.png" />
+            </Head>
+            <TopNav /> {/* <-- inserted TopNavbar */}
+            <Header />
 
-      <main>
-        <Header title="Hello, world!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
-  )
+            <Footer />
+        </div>
+    )
 }

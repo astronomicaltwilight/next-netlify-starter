@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <img src="/logo-netlify.svg" alt="Netlify Logo" className={styles.logo} />
+        <img src="/faviconpersonalwebsite.png" alt="El Ganzo Goose" className={styles.logo} />
       </footer>
     </>
   )
