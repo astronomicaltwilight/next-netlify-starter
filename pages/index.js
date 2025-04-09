@@ -1,19 +1,17 @@
 import Head from 'next/head'
-import Footer from '@components/Footer'
-import Header from '@components/Header';
 import TopNav from '@components/TopNav';
+import UnderConstruction from "@components/UnderConstruction";
 
 export default function Home() {
     return (
         <div className="container">
             <Head>
-                <title>Next.js Starter!</title>
+                <title>Under Construction</title>
                 <link rel="icon" href="/faviconpersonalwebsite.png" />
             </Head>
             <TopNav /> {/* <-- inserted TopNavbar */}
-            <Header />
+            <UnderConstruction />
 
-            <Footer />
         </div>
     )
 }

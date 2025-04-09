@@ -9,6 +9,9 @@ const foregroundColors = {
 const myProperties = defineProperties({
     properties: {
         color: foregroundColors,
+        fontFamily: {
+            default: "Roboto",
+        },
     },
 });
 
